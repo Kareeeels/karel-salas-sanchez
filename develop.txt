@@ -1,0 +1,16 @@
+RAMA DEVELOP - Git Flow
+
+Esta es la rama de desarrollo principal donde se integran todas las nuevas características.
+
+Propósito:
+- Contiene el código más reciente en desarrollo
+- Punto de integración para nuevas features
+- Base para crear ramas de características (feature branches)
+- Siempre debe estar en un estado estable y compilable
+- Se fusiona con master cuando está lista para release
+
+Flujo de trabajo:
+1. Las feature branches se crean desde develop
+2. Una vez completadas, las features se fusionan de vuelta a develop
+3. Cuando develop está listo para release, se crea una rama release
+4. Finalmente se fusiona con master para producción
