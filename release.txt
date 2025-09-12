@@ -1,0 +1,25 @@
+RAMA RELEASE - Git Flow
+
+Esta rama se utiliza para preparar nuevas versiones para producción.
+
+Propósito:
+- Preparar el código de develop para ser lanzado a producción
+- Realizar pruebas finales y ajustes menores
+- Corrección de bugs encontrados durante las pruebas de release
+- Finalizar la documentación y metadatos de la versión
+- Estabilizar el código antes del lanzamiento
+
+Flujo de trabajo:
+1. Se crea desde develop cuando está listo para release
+2. Se realizan pruebas exhaustivas (QA, UAT, etc.)
+3. Se corrigen bugs menores encontrados durante las pruebas
+4. Se actualiza la documentación y números de versión
+5. Una vez estable, se fusiona con master y develop
+6. Se etiqueta la versión en master
+7. Se despliega a producción
+
+Características:
+- Solo correcciones de bugs y ajustes menores
+- No se agregan nuevas características
+- Testing intensivo antes del merge
+- Preparación para el lanzamiento oficial
