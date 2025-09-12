@@ -1,0 +1,23 @@
+RAMA HOTFIXES - Git Flow
+
+Esta rama se utiliza para correcciones urgentes en producción.
+
+Propósito:
+- Solucionar bugs críticos encontrados en producción (master)
+- Permitir correcciones rápidas sin interrumpir el desarrollo normal
+- Mantener la estabilidad del código en producción
+- Aplicar parches de emergencia cuando sea necesario
+
+Flujo de trabajo:
+1. Se crea desde master cuando hay un bug crítico en producción
+2. Se desarrolla la corrección mínima necesaria
+3. Se prueba exhaustivamente la corrección
+4. Se fusiona de vuelta a master y develop
+5. Se etiqueta con una nueva versión de patch
+6. Se despliega inmediatamente a producción
+
+Características:
+- Solo para correcciones críticas y urgentes
+- Cambios mínimos y específicos
+- Testing riguroso antes del merge
+- Documentación clara del problema y solución
