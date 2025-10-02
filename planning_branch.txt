@@ -1,0 +1,24 @@
+RAMA PLANNING - Feature Branch
+
+Esta es una rama de característica (feature branch) dedicada específicamente al trabajo de planificación del proyecto PSP.
+
+Propósito:
+- Desarrollar y mejorar los documentos de planificación
+- Crear plantillas y formatos para la fase de planning
+- Implementar herramientas de estimación y seguimiento
+- Documentar procesos y metodologías de planificación
+- Realizar mejoras en la estructura de planificación del PSP
+
+Flujo de trabajo:
+1. Creada desde la rama develop
+2. Desarrollo de características relacionadas con planning
+3. Testing y validación de los cambios
+4. Merge de vuelta a develop cuando esté completa
+5. Eventualmente se incluirá en el próximo release
+
+Contenido de trabajo:
+- Documentos de planificación del proyecto
+- Plantillas de estimación de tiempo y recursos
+- Formatos de seguimiento de progreso
+- Metodologías de identificación de riesgos
+- Herramientas de planificación de cronogramas
